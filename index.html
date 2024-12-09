@@ -12,27 +12,31 @@
         <h1>Proflie</h1>
     </div>
     <br>
-    <a href="win.html"  class="con2">
-        <div>
-            <!-- <button><a href="win.html">Win</a></button> -->
 
+    <div class="main-con">
+        <a href="win.html" >
             <div class="con2">
-                <div class="con3"><img width="50%" height="50%" src="icon.png" alt=""> Win </div>
-                <!-- <div class="con4">Win </div> -->
+                <div class="con3"><img src="icon.png" alt=""> </div>
+                <div class="con4">Win </div>
             </div>
-    </a>
+        </a>
 
-    <a href="toon.html" >
-        <div class="con2">
-            <div class="con3"><img src="icon.png" alt=""> </div>
-            <div class="con4">Toon </div>
-        </div>
-    </a>
+        <a href="toon.html">
+            <div class="con2">
+                <div class="con3"><img src="icon.png" alt=""> </div>
+                <div class="con4">Toon </div>
+            </div>
+        </a>
     </div>
 
-    
+
 </body>
 <style>
+    .main-con {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
     .con {
         height: 70px;
         background-color: black;
